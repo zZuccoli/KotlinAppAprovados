@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/inputTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Matéria"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/inputHorario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Horário"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/darker_gray"
+        android:inputType="time" />
+
+</LinearLayout>

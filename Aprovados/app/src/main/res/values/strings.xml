@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Aprovados</string>
+
+    <!-- Calendário -->
+    <string name="titulo_mes_marco">Março</string>
+    <string name="buscar_tarefas">Buscar tarefas</string>
+    <string name="adicionar_tarefa">Adicionar tarefa</string>
+    <string name="lista_de_tarefas">Lista de tarefas do calendário</string>
+
+    <!-- Flashcards -->
+    <string name="buscar_flashcards">Buscar flashcards</string>
+    <string name="adicionar_flashcard">Adicionar flashcard</string>
+    <string name="lista_de_flashcards">Lista de flashcards</string>
+
+    <!-- Menu -->
+    <string name="perfil_usuario">Perfil do Usuário</string>
+</resources>

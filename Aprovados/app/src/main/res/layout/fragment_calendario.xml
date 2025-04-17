@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="16dp"
+    tools:context=".calendario.CalendarioFragment">
+
+    <!-- Título do mês -->
+    <TextView
+        android:id="@+id/txtTituloMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abril 2025"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- Grid de dias do calendário -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/gridCalendario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="90dp"
+        android:layout_marginTop="12dp"
+        android:paddingBottom="8dp"
+        tools:listitem="@layout/item_dia" />
+
+    <!-- Título da seção de tarefas -->
+    <TextView
+        android:id="@+id/tituloTarefas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tarefas"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold" />
+
+    <!-- Lista de tarefas -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listaTarefas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:listitem="@layout/item_tarefa" />
+
+    <!-- Botão flutuante para nova tarefa -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnNovaTarefa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Nova Tarefa"
+        android:src="@drawable/ic_input_add"
+        app:backgroundTint="@color/teal_200" />
+
+</LinearLayout>

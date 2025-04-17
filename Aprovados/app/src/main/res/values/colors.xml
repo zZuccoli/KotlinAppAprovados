@@ -1,0 +1,14 @@
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="dark_gray">#121212</color>
+    <color name="gray">#AAAAAA</color>
+
+    <!-- Cores que estavam faltando -->
+    <color name="accent">#03DAC5</color>
+    <color name="azul">#2196F3</color>
+    <color name="background_dark">#121212</color>
+</resources>
