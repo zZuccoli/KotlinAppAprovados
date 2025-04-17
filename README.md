@@ -22,7 +22,6 @@ Oferecer uma ferramenta prática, intuitiva e funcional para estudantes acompanh
 - Criação de cartões com pergunta e resposta
 - Navegação entre os lados do cartão
 - Reforço de memorização com revisão ativa
-- Flashcards vinculados a tarefas específicas
 
 ## ✅ Conclusão
 
